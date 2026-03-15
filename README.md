@@ -15,7 +15,7 @@ Built for the **FOSS × BIS Hackathon 2026**
 </div>
 
 ---
-<img src="../bis-chatbot/static/UI.PNG">
+![BISBot UI](static/UI.PNG)
 
 ## 📸 What It Looks Like
 
