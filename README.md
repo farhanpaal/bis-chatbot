@@ -1,6 +1,7 @@
-# 🏛️ BISBot: AI Assistant for Bureau of Indian Standards
+# 🏛️ BISBot — AI Assistant for Bureau of Indian Standards
 
 <div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi)
 ![Groq](https://img.shields.io/badge/Groq-LLaMA--3.3--70B-orange?style=for-the-badge)
