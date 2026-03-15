@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS Inspired Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Top Navbar */
+
+        .navbar {
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        /* Secondary menu */
+
+        .submenu {
+            background: #003c8f;
+            color: white;
+            padding: 10px 30px;
+            font-size: 14px;
+        }
+
+        .submenu span {
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        /* Hero section */
+
+        .hero {
+            display: flex;
+            background: #0b3c78;
+            color: white;
+            padding: 40px;
+        }
+
+        .hero-left {
+            width: 40%;
+        }
+
+        .hero-left h1 {
+            font-size: 30px;
+        }
+
+        .hero-right {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-right h2 {
+            font-size: 60px;
+            background: red;
+            padding: 20px 40px;
+        }
+
+        /* Cards section */
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            flex: 1;
+            background: #f3f3f3;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* AI Button */
+
+        .ai-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0b3c78;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .ai-button:hover {
+            background: #062a55;
+        }
+
+        .st-img {
+            width: 95%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+
+        <div class="menu">
+            <a href="#">About Us</a>
+            <a href="#">Standards</a>
+            <a href="#">Conformity Assessment</a>
+            <a href="#">Laboratory Services</a>
+            <a href="#">Training</a>
+            <a href="#">Career</a>
+        </div>
+
+    </div>
+
+
+    <!-- SUB MENU -->
+
+    <div class="submenu">
+        <span>Home</span>
+        <span>Standard of the Week</span>
+        <span>Know Your Standard</span>
+        <span>BIS Library</span>
+        <span>Contact</span>
+    </div>
+
+
+    <!-- HERO SECTION -->
+
+    <div class="hero">
+
+        <div class="hero-left">
+            <h1>We're BIS</h1>
+            <p>
+                The National Standards Body of India. We develop and publish Indian Standards,
+                implement conformity assessment schemes and support quality assurance.
+            </p>
+        </div>
+
+        <div class="hero-right">
+            <img src="standard-img.PNG" alt="" class="st-img">
+        </div>
+
+    </div>
+
+
+    <!-- CARDS -->
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Quality Standards</h3>
+            <p>Information about BIS standards and certifications.</p>
+        </div>
+
+        <div class="card">
+            <h3>Laboratory</h3>
+            <p>Testing facilities and services provided by BIS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Young Professionals</h3>
+            <p>Join programs and initiatives for youth.</p>
+        </div>
+
+    </div>
+
+
+    <!-- AI BUTTON -->
+
+    <a class="ai-button" href="../static/index.html">
+        🤖Bis AI Assistant
+    </a>
+
+
+
+</body>
+
+</html>
